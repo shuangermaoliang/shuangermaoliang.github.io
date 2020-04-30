@@ -250,11 +250,11 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #947a62 0%, #b09b71 100%);
 }
 
 .text-color {
-    color: #0f9d58 !important;
+    color: #d69c4f !important;
 }
 
 .white-color {
@@ -266,8 +266,8 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
-    opacity: 0.8;
+    background: linear-gradient(to right, #947a62 0%, #b09b71 100%);
+    opacity: 0.5;
 }
 
 .sidenav-overlay {
@@ -398,9 +398,9 @@ header .side-nav .social-link {
 .cover-btns a:hover {
     border: 1px solid #f44336;
     background-color: #f44336;
-    box-shadow: 0 14px 26px -12px rgba(233, 30, 99, 0.42),
+    box-shadow: 0 14px 26px -12px rgba(233, 30, 99, 0.10),
             0 4px 23px 0 rgba(0, 0, 0, 0.12),
-            0 8px 10px -5px rgba(233, 30, 99, 0.2);
+            0 8px 10px -5px rgba(233, 30, 99, 0.1);
 }
 
 .cover-btns a i {
@@ -560,7 +560,7 @@ header .go-back i {
     height: 40vh !important;
 }
 
-.bg-cover:after {
+/* .bg-cover:after { */
     -webkit-animation: rainbow 60s infinite;
     animation: rainbow 60s infinite;
 }
@@ -603,7 +603,7 @@ header .go-back i {
     font-weight: 400;
 }
 
-@-webkit-keyframes rainbow {
+/* @-webkit-keyframes rainbow { */
 
     0%,
     100% {
@@ -649,7 +649,7 @@ header .go-back i {
     }
 }
 
-@keyframes rainbow {
+/* @keyframes rainbow { */
 
     0%,
     100% {

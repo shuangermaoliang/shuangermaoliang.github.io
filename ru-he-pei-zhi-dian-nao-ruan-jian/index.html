@@ -581,6 +581,33 @@
     </div>
 
     
+        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: '35a72ddc2a88b5a13f02',
+        clientSecret: '0af0f2918786af18ac7ea58bfc90112d1d553e5a',
+        repo: 'gitalkformyas',
+        owner: 'aiguoartist',
+        admin: "aiguoartist",
+        id: '2020-05-01T16-47-58',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
+
+    
 
     
 
@@ -597,44 +624,29 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/ru-he-pei-zhi-dian-nao-ruan-jian/">
+                <a href="/markdown-de-zheng-que-xue-xi-fang-fa/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="如何配置电脑软件">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Markdown的正确学习方法">
                         
-                        <span class="card-title">如何配置电脑软件</span>
+                        <span class="card-title">Markdown的正确学习方法</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            如何配置电脑软件篇重装系统以后，或者在购入一个新电脑以后，就需要开始安装各种各样的软件来实现各种各样的电脑操作。
-
-本文涉及的软件在WINDOWS系统下运行
-
-软件我目前分成了四个大类
-
-
-
-系统内置软件
-前置软件
-绿色软件
-黑色软件
-
-
-
+                            
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-01
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-04
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -643,7 +655,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
